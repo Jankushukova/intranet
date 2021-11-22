@@ -1,0 +1,43 @@
+.bg-bitlab {
+    background-color: #0accda;
+}
+
+.bg-orange {
+    background-color: #da9500;
+}
+
+.text-bitlab {
+    color: #0accda;
+}
+
+.btn-outline-bitlab {
+    color: #0accda;
+    border-color: #0accda;
+}
+
+.btn-outline-bitlab:hover {
+    color: #fff;
+    background-color: #0accda;
+    border-color: #0accda;
+}
+
+.btn-outline-bitlab:focus, .btn-outline-bitlab.focus {
+    box-shadow: 0 0 0 0.2rem rgba(77, 131, 255, 0.5);
+}
+
+.btn-outline-bitlab.disabled, .btn-outline-bitlab:disabled {
+    color: #0accda;
+    background-color: transparent;
+}
+
+.btn-outline-bitlab:not(:disabled):not(.disabled):active, .btn-outline-bitlab:not(:disabled):not(.disabled).active,
+.show > .btn-outline-bitlab.dropdown-toggle {
+    color: #fff;
+    background-color: #0accda;
+    border-color: #0accda;
+}
+
+.btn-outline-bitlab:not(:disabled):not(.disabled):active:focus, .btn-outline-bitlab:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-bitlab.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(77, 131, 255, 0.5);
+}
